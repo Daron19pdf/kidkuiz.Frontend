@@ -1,5 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/bestscore": "pages/bestscore.html",
+  "/": "pages/index.html",
+  "/menu": "pages/menu.html",
+  "/quizz": "pages/quizz.html",
+  "/result": "pages/result.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
