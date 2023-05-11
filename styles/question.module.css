@@ -1,0 +1,19 @@
+.questionContainer{
+    min-width: 60%;
+    min-height: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 3px #ccc;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numberQuestion{
+    font-size: 1.2rem;
+}

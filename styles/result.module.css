@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .numberScore{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .base{
+    margin-bottom: 40px;
+  }
+
+ .fontStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }

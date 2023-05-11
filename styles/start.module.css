@@ -1,0 +1,24 @@
+
+  .startButton{
+            width: 240px;
+            height: 70px;
+            text-align: center;
+            margin: 10px auto;
+            background-color: #fff;
+            box-Shadow: 0 0 10px rgba(0,0,0,0.5);
+            border-Radius: 20px;
+            margin-Bottom: 20px;
+            padding: 5px; 
+            transition: 0.5s ease-in; 
+            font-size: 1.5rem;  
+  }
+
+  .startButton:hover {
+    background-color: #2a9d8f;
+    transition: 0.5s ease-out;
+  }
+
+  
+
+
+
