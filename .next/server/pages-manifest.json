@@ -1,7 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/bestscore": "pages/bestscore.html",
+  "/_error": "pages/_error.js",
   "/": "pages/index.html",
   "/menu": "pages/menu.html",
   "/quizz": "pages/quizz.html",
