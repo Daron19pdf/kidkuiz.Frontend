@@ -46,7 +46,7 @@ function Quizz() {
   }, [next]);
 
   const resetAnswers = () => {
-    if (next === 3) {
+    if (next === 10) {
       window.location.href = "result";
     }else {
     setNext(next + 1);
