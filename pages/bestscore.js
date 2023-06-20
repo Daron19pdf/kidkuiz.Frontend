@@ -1,18 +1,7 @@
-import React from "react";
-import styles from "../styles/start.module.css";
+import BestScore from "../components/BestScore";
 
-
-function BestScore() {
-
-    
-  
-  return (
-    <div>
-        <p>Best Score</p>
-    </div>
-
-  );
-  
+function BestScorePage() {
+  return <BestScore />;
 }
 
-export default BestScore;
+export default BestScorePage;

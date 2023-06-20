@@ -4,20 +4,20 @@ import Link from "next/link";
 import { useDispatch } from "react-redux";
 import { scoreToStore } from "../reducers/scoring";
 
-function start(props) {
+function Start(props) {
 
     const dispatch = useDispatch();
 
-    const raz = () => {
-       setTimeout(() => {
-        dispatch(scoreToStore(0))
-        }, 2000);
-    }
+    const raz = async () => {
+      dispatch(scoreToStore(0));
+      await router.prefetch("/menu"); 
+      router.push("/menu"); 
+    };
 
   return (
     <div>
         <Link href="/menu">
-            <button onClick={() => raz()} className={styles.startButton}>{props.name}</button>
+            <button onClick={() => raz} className={styles.startButton}>{props.name}</button>
         </Link>
     </div>
 
@@ -25,4 +25,4 @@ function start(props) {
   
 }
 
-export default start;
+export default Start;

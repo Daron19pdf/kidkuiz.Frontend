@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Logo from '/components/Logo';
 import Start from '/components/Start';
 import styles from '../styles/Home.module.css';
 
 
 function Home() {
+
+  const preheat = async () => {
+    await fetch('https://kidikuiz-backend.vercel.app/questions')
+    .then(response => response.json())
+  }
+  preheat()
+
+
 
   const name = "Start";
   return (
