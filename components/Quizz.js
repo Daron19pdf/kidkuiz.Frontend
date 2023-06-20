@@ -37,7 +37,7 @@ function Quizz() {
           setError(null);
     }
     catch (err) {
-      setError("déso ça marche pas");
+      setError("Revenir au menu");
       setScore(0);
       setNext(1);
     }
